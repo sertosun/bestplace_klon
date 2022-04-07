@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --dark_blue: #0F283C; 
+    --light_blue: #4885B4; 
+    --orange: #F88100; 
+    --orange_hover: #C8700D; 
+    font-size: 16px; 
+    font-family: 'Raleway', sans-serif;
+}
+ 
+h1,  h2 , h3 , h4 , p{
+    margin-bottom: 1rem;
+}
+
+p {
+    line-height: 1.6rem;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+
+img {
+    display: block;
+}
+ul {
+    list-style-type: none;
+}
+
+
+
+/* ------------------------------ */
+.heading_section {
+    position: relative;
+    color: white;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+header {
+    padding:clamp(1rem, 0.2727rem + 3.6364vw, 3rem);
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navigation_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5rem;  
+    gap: 2rem;
+}
+
+.navigation_complete {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-evenly;
+}
+#bestplace_logo {
+    width: 170px;
+    height: 30px;
+}
+
+.navigation_middle {
+    display: none;
+}
+
+.menu_item_text {
+    font-size: 21px;
+    color: white;
+}
+
+#bestplace_video {
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    width: inherit;
+    height: 100vh;
+}
+
+.menu_grid {
+    display: grid;
+    /* place-items: center; */
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.heading_middle_content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
+}
+
+.heading_title {
+    font-size: clamp(2.5rem, 1.5909rem + 4.5455vw, 5rem);font-weight: 400;
+}
+
+.heading_subtitle {
+    font-size: clamp(2rem, 1.5909rem + 2.0455vw, 3.125rem);
+    font-weight: 400;
+}
+
+.heading_content_link {
+    background-color: var(--orange);
+    padding: clamp(1rem, 0.6364rem + 1.8182vw, 2rem);
+    padding-top: 1rem;
+    padding-bottom: 1rem ;
+    border: 1px solid white;
+    width: fit-content;
+    margin: auto;
+}
+
+.heading_content_link p {
+    margin-bottom: 0;
+}
+
+.heading_content_link_btn{
+    color: white !important;
+    font-size: 20px;
+}
+
+/* ------------------------------------ */
