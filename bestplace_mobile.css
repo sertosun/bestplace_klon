@@ -134,3 +134,111 @@ header {
 }
 
 /* ------------------------------------ */
+
+
+.heading_cards_section {
+    padding: 0.5rem;
+    padding-top: clamp(2.5rem, 2.0595rem + 2.2026vw, 3.75rem);
+    padding-bottom: clamp(2.5rem, 2.0595rem + 2.2026vw, 3.75rem);
+}
+
+.card_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.card_border {
+    background-color: var(--light_blue);
+    color: white;
+    padding: 0.5rem;
+    transition: all 300ms;
+}
+
+.card_border:hover {
+    transform: translateY(-1rem);
+}
+
+.heading_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1rem;
+    border: 2px solid white;
+}
+
+
+.head_card_icon{
+    height:clamp(5.25rem, 4.457rem + 3.9648vw, 7.5rem);
+    display: grid;
+    place-items: center;
+}
+
+.head_card_content {
+    margin: clamp(1.75rem, 1.1333rem + 3.0837vw, 3.5rem);
+    margin-top: clamp(0.875rem, 0.5666rem + 1.5419vw, 1.75rem);
+    text-align: justify;
+    font-size: clamp(0.8125rem, 0.6583rem + 0.7709vw, 1.25rem);
+}
+
+.head_card_button {
+   width: 100%;
+}
+
+.head_card_button_text {
+    display: grid; 
+    place-items: center;
+}
+
+.head_icon {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    position: relative;
+    background-color: white;
+    color: var(--dark_blue);
+    font-size: clamp(0.8125rem, 0.6583rem + 0.7709vw, 1.25rem);
+    padding: clamp(0.8125rem, 0.4381rem + 1.8722vw, 1.875rem);
+    padding-top: 0 ;
+    padding-bottom:0;
+   /*  width: clamp(17rem, 15.2379rem + 8.8106vw, 22rem); */
+    width: 90%;
+    min-height:clamp(3rem, 2.4714rem + 2.6432vw, 4.5rem);
+    transition: all 300ms;
+    margin: auto;
+    display: grid; 
+    place-items: center;
+}
+
+.head_icon:hover {
+   /*  width: clamp(18rem, 17.2379rem + 8.8106vw, 23rem); */
+    width: 100%;
+}
+
+.span_icon {
+    background-color: white;
+    position: absolute;
+    right: 3rem;
+    opacity: 0;
+    transform: translateX(50%);
+    padding-right: 1rem;
+    min-height: inherit;
+    display: grid;
+    place-items: center;
+    transition: all 300ms;
+}
+
+.head_card_button:hover .span_icon {
+    opacity: 1;
+    transform: translateX(200%);
+}
+
+.card_border_dark {
+    background-color: var(--dark_blue);
+}
+
+/* ----------------------------------------- */
+
