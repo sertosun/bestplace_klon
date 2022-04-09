@@ -27,7 +27,6 @@ a {
     color: black;
 }
 
-
 img {
     display: block;
 }
@@ -35,6 +34,21 @@ ul {
     list-style-type: none;
 }
 
+.back_img {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.general_title {
+    padding: 40px 5px;
+    width: 100%;
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: clamp(2rem, 1.7619rem + 1.1905vw, 2.5rem);
+}
 
 
 /* ------------------------------ */
@@ -241,4 +255,71 @@ header {
 }
 
 /* ----------------------------------------- */
+
+
+.asset_hightlight {
+    color: var(--dark_blue);
+}
+
+.assets_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.assets_wrapper > * {
+    flex-grow: 1;
+}
+
+.assets_content_mobile {
+    background-color: var(--dark_blue);
+    color: white;
+    padding: 1.5rem;
+}
+
+.assets_content_tablet {
+    display: none;
+}
+
+.assets_content_mobile h1 , .assets_content_tablet h1 {
+    text-align: center ;
+    font-weight: lighter;
+    font-size: clamp(1.625rem, 0.9642rem + 3.304vw, 3.5rem);
+}
+
+.asset_number {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1rem; 
+}
+
+.asset_square , .asset_room {
+    text-align: center;
+}
+
+
+.asset_some_numbers {
+    display: block;
+}
+
+.asset_img {
+    background-image: url("https://www.bestplace-immobilien.de/wp-content/uploads/2021/11/Lion-Feuchtwanger-Rendering-Gartenplateau.jpg");
+    min-height: clamp(13.75rem, 7.9464rem + 29.0179vw, 21.875rem);
+}
+
+.asset_button {
+    text-align: center;
+}
+
+#asset_info_button {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 15px;
+    transition: all 200ms;
+}
+
+#asset_info_button:hover {
+    background-color: white;
+    color: var(--dark_blue);
+}
 
