@@ -432,3 +432,34 @@ header {
 
 /* ---------------------  */
 
+.about_us_container {
+    background-color: var(--dark_blue);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+}
+
+.about_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 1.5rem;
+}
+   
+.about_card {
+    flex: 1 1 250px;
+  /*   max-width: 300px; */
+    color: white;
+    text-align: center;
+}
+
+.about_card i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+/* ----------------------------------------------- */
+
