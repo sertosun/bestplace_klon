@@ -463,3 +463,63 @@ header {
 
 /* ----------------------------------------------- */
 
+  <section class="umsatz_section">
+      <div class></div>
+      <div class="umsatz_container back_img">
+        <div class="umsatz_wrapper">
+          <div class="umsatz_cards mitarbeiter">
+            <div class="umsatz_facts">
+              <h3 class="umsatz_mitarbeiter">98</h3>
+              <p class="umsatz_mitarbeiter_text">
+                <span>BEST PLACE </span> <br />
+                Mitarbeiter
+              </p>
+            </div>
+            <div class="umsatz_hover_text">
+              <p class="umsatz_text">
+                Um unseren exzellenten Service bieten zu können, arbeiten mehr
+                als 98 Mitarbeiter in den Bereichen Vertrieb, Marketing und
+                Hausverwaltung.
+              </p>
+            </div>
+          </div>
+          <!-- --------------- -->
+          <div class="umsatz_cards erfahrung">
+            <div class="umsatz_facts">
+              <h3 class="umsatz_mitarbeiter">473</h3>
+              <p class="umsatz_mitarbeiter_text">
+                Jahre <br />
+                Erfahrung
+              </p>
+            </div>
+            <div class="umsatz_hover_text">
+              <p class="umsatz_text">
+                Im BEST PLACE Team kommen viele Jahre Erfahrung in den
+                unterschiedlichsten Facetten der Immobilienbranche zusammen.
+              </p>
+            </div>
+          </div>
+          <!-- ----------- -->
+          <div class="umsatz_cards umsatz_gewinn">
+            <div class="umsatz_facts">
+              <h3 class="umsatz_mitarbeiter">250</h3>
+              <p class="umsatz_mitarbeiter_text">
+                Mio. Euro <br />
+                Umsatz
+              </p>
+            </div>
+            <div class="umsatz_hover_text">
+              <p class="umsatz_text">
+                Jährlich verkauft BEST PLACE Immobilien im Wert von mehr als 200
+                Mio. Euro, darunter Neubau-Wohnungen und Bestandsobjekte.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------------------------- -->
+
+
+
