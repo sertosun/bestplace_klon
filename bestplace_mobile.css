@@ -522,4 +522,153 @@ header {
     <!-- -------------------------------------- -->
 
 
+ .engagement_container {
+     padding: 1rem;
+ }
+ .engagement_img img {
+     width: 100%;
+     height: clamp(10.625rem, 5.5589rem + 25.3304vw, 25rem);
+ }
+
+ .engagement_text {
+     text-align: justify;
+
+ }
+
+ .engagement_text h1 {
+     text-align: center;
+     margin-top: 1rem;
+ }
+
+ .engagement_col1 , .engagement_col2 {
+     padding: 1rem;
+ }
+
+ /* ----------------------------------------------- */
+
+ .media_container {
+     padding: 1rem;
+ }
+
+ .media_wrapper {
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+ }
+
+ .media_card {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .media_content {
+    height: fit-content;
+ }
+
+ .media_img {
+    position: relative;
+    background-size: cover;
+    aspect-ratio: 1/1;
+    width: 100%;
+ }
+ /* ------------ */
+.media1 {
+    background-image: url("https://www.bestplace-immobilien.de/wp-content/uploads/2021/07/Berliner-Stra%C3%9Fe_Posts5.jpg"); 
+ }
+ .media2 {
+    background-image: url("https://www.bestplace-immobilien.de/wp-content/uploads/2021/03/16.02_Warschauerstr..jpg");
+ }
+ .media3 {
+    background-image: url("https://www.bestplace-immobilien.de/wp-content/uploads/2021/03/freders.jpg");
+ }
+ .media4 {
+    background-image: url("https://www.bestplace-immobilien.de/wp-content/uploads/2021/03/12.03_CA.jpg"); 
+ }
+ /* --------------------------- */
+
+ .media_img i {
+     font-size: 2rem;
+     position: absolute;
+     top: 0;
+     right: 10%;
+     background-color: var(--dark_blue);
+     color: white;
+     padding: 0.3rem;
+     z-index: 10;
+ }
+
+ .media_content {
+     border: 1px solid grey;
+     padding: 0.5rem;
+ }
+
+ .media_emoji > * {
+    display: inline-block;
+ }
+
+ /* ---------------------------------- */
+
+
+ /* .blog_card {
+     width: 300px; /* WIEDERHOLUNG TEST 
+ } */
+
+.blog_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.blog_container {
+    padding: 1rem;
+}
+
+ .blog1 {
+     background-image: url("https://www.bestplace-immobilien.de/wp-content/uploads/2019/06/Immobilienblase_blau-3.jpg");
+ }
+ 
+ .blog2 {
+     background-image: url("https://www.bestplace-immobilien.de/wp-content/uploads/2019/05/115_vpartner-0250_INT_02_4-OG-e1564669564374.jpg");
+ }
+
+ .blog3 {
+     background-image: url("https://www.bestplace-immobilien.de/wp-content/uploads/2019/07/Hausansicht_Strasse30m-1.jpg");
+ }
+
+ .blog_img {
+     width: 100%;
+     height: 250px;
+     margin-bottom: 1.5rem;
+ }
+
+ .blog_card_title {
+     text-align: center ;
+ }
+
+ /* ---------------------- */
+
+ .virtual_content {
+    padding: 1rem 3rem;
+ }
+
+ .virtual_img {
+    background-image: url("https://www.bestplace-immobilien.de/wp-content/uploads/2019/07/Virtual-Reality_web-e1562755209710.jpg");
+    min-height: 200px;
+ }
+
+ .virtual_content_tablet {
+    display: none;
+ }
+
+ .virtual_container {
+    display: flex;
+    flex-direction: column;
+   /*  min-height: 100vh; */
+ }
+ /* -------------------------- */
+
+
+
+
+
 
