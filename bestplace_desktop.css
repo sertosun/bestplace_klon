@@ -1,0 +1,90 @@
+.heading_cards_section {
+    position: relative;
+    display: grid;
+    place-items: center;
+    /* margin-bottom: 20rem; */
+} 
+
+.card_wrapper {
+   
+    margin-top: -15rem;
+    width: 60%;  
+    /* position: absolute; sorgt für overflow probleme 
+    top: -100px;
+    margin-bottom: 30rem; */
+}
+
+/* ------------------ */
+
+.assets_content_tablet {
+    position: absolute;
+    bottom: 5%;
+    left: 7%;
+    transform: none;
+    
+    width: auto;
+    padding: 1.5rem;
+}
+
+.assets_content_tablet h1 {
+    font-size: 55px;
+}
+
+/* --------------------------- */
+
+.media_card {
+    flex-direction: row;   
+}
+
+.media_wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.media_img {
+    flex-grow: 1; 
+    width: 350px;
+}
+
+
+.media_content {
+    flex-grow: 3;
+    height: 100%;
+}
+
+/* ------------------- */
+
+
+.blog_wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* -------------------- */
+
+.virtual_content_tablet {
+    display: block;
+    background-color: rgb(15, 40, 60, 0.7);
+    color: white;
+}
+.virtual_content_tablet > *
+{
+    width: 60%;
+    padding: 1rem;
+}
+.virtual_content_mobile {
+    display: none;
+}
+
+.virtual_img_content {
+    display: flex;
+}
+
+.virtual_img_content > * {
+    flex: 1; 
+}
+
+.virtual_container {
+    min-height: 0;
+}

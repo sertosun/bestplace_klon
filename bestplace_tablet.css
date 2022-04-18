@@ -1,0 +1,144 @@
+.navigation_middle {
+    display: block; 
+    flex-grow: 3;
+}
+
+.navigation_complete {
+    flex-grow: 1.5;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.navigation_middle .navbar .menu_list {
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.card_wrapper {
+    margin: auto;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+   /*  align-items: stretch; */
+    gap: 3rem;
+    padding: 0rem 1rem;
+} 
+
+/* ----------------------------- */
+
+.assets_content {
+    width: 50%;
+}
+
+.assets_content_mobile {
+    display: none;
+}
+
+
+.assets_content_tablet {
+    display: block;
+    background-color: var(--dark_blue);
+    color: white;
+    padding: 1rem;
+    width: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+} 
+
+.assets_content_tablet h1 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.asset_img {
+    min-height: clamp(26.875rem, 3.9185rem + 47.8261vw, 40.625rem);;
+}
+
+.asset_number {
+    font-size: 14px;
+}
+
+/* ------------------------------ */
+
+.port1 , .port4 {
+    display: block;
+}
+
+.portfolio_cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.2rem;
+}
+
+.portfolio_slider {
+    height: 40%;
+}
+
+.port_slider_title h1{
+    font-size: clamp(2rem, 0.9565rem + 2.1739vw, 2.625rem);
+}
+
+/* --------------------------------- */
+
+.umsatz_wrapper {
+    flex-direction: row; 
+    gap: 4rem;
+}
+
+/* ---------------------- */
+
+.engagement_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+    margin: auto;
+}
+
+
+/* --------------------- */
+
+
+
+.media_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+/* ------------------------ */
+
+
+.blog_wrapper {
+   /* display: flex; braucht man nicht zu erwähnen, da es im HauptCss File schon vorhanden ist  */
+    flex-direction: row;
+    /* justify-content: space-between; */
+    /* alles was in der HautpCss Datei vorhanden ist wird übernommen */
+}
+
+/* --------------------------- */
+
+.footer_container {
+    flex-direction: row;
+}
+
+.footer_container >*  {
+    flex: 1 ;
+}
+
+.footer_copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.footer_copy p {
+    margin: 0;
+    padding: 1rem ;
+}
+
+
